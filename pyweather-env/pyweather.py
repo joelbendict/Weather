@@ -1,7 +1,7 @@
 import requests
 
 API_KEY = "**************"  # Replace with your actual OpenWeather API key
-BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
+BASE_URL = "http://api.weatherstack.com/current"
 
 def get_weather(city):
     params = {"q": city, "appid": API_KEY, "units": "metric"}
